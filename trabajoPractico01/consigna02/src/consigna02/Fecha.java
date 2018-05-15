@@ -42,5 +42,24 @@ public class Fecha {
         this.mes = mes;
         this.anho = anho;
     }
+    
+    public void input(int dia, int mes, int anho){
+        setDia(dia);
+        setMes(mes);
+        setAnho(anho);
+                        
+    }
+    
+    public String show(){
+        getAnho();
+        getDia();
+        getMes() ;
+
+        return String.format("%d %d %d", anho, dia, mes);
+    }
+
+    public String toString(){
+        return "anho: " + anho +" "+ "dia: " + dia +" "+ "mes: " + mes;
+    }
         
 }

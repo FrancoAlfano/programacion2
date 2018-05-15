@@ -5,17 +5,20 @@
  */
 package consigna02;
 
-/**
- *
- * @author Franco
- */
+
 public class Consigna02 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Fecha f1 = new Fecha();
+        
+        f1.input(02,8,95);
+        
+        System.out.println(f1.show());
+        
+        System.out.println(f1.toString());
     }
-    
+        
 }
