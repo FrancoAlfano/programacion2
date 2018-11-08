@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cine.pago",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "monolith",
+    "baseName": "cinePago",
+    "packageName": "com.cine.pago",
+    "packageFolder": "com/cine/pago",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjZiMTE2NDQ1ZmMzNTgyYTBlYmFmYmZiMGM0YjI3NDEzZTJiNzhhZDUwNGI2ZWJhYzA5NWU2ZDViZDgzNDI2MzE5NTc0OWM2OGM3NjcwYzU3Njc2ODllODJlYzZmZjkzOTMxN2FiZmVkMmQzZDdjYzY4MWVkNWFiZGNmNjFkZTE=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ]
+  }
+}
