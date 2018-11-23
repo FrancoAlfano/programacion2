@@ -1,0 +1,9 @@
+{
+    "cinePagoApp": {
+        "Tipo" : {
+            "null": "",
+            "DEBITO": "DEBITO",
+            "CREDITO": "CREDITO"
+        }
+    }
+}
